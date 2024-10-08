@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile Finder</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Github Profile Finder</h2>
+
+      <form id="form">
+        <input required type="text" placeholder="Enter your Username" />
+        <button type="submit">Get Data</button>
+      </form>
+
+      <p id="message"></p>
+
+      <div id="main-div" class="div">
+        <img src="./default.jpg"/>
+        <p></p>
+        <p>Public Repositories:</p>
+        <a href="" target="_blank">Profile Link</a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
