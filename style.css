@@ -1,9 +1,9 @@
 body {
-  background-image: linear-gradient(to right, #d66d75, #e29587);
+  background-image: linear-gradient(to right, #16222A, #3A6073);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 15px;
-  color: #e7accf;
+  color: #87afc7;
 }
 #container {
   max-width: 600px;
@@ -11,7 +11,7 @@ body {
   margin: auto;
   padding: 25px;
   border-radius: 8px;
-  background-color: #d470a2;
+  background-image: linear-gradient(to left, #16222A, #3A6073);
 }
 h2 {
   text-align: center;
@@ -22,8 +22,8 @@ h2 {
   align-items: center;
 }
 input{
-  background-color: #c54b8c;
-  color: black;
+  background-color: #16222A;
+  color: #87afc7;
   padding: 5px;
   margin-bottom: 25px;
   width: 70%;
@@ -34,13 +34,13 @@ input{
 }
 input:focus{
   outline: none;
-  border: 2px solid #a94064;
+  border: 2px solid #87afc7;
 }
 button{
   padding: 10px 15px;
   font-weight: 800;
-  background-color: #a94064;
-  color: #e7accf;
+  background-color: #16222A;
+  color: #87afc7;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -60,8 +60,8 @@ button{
 a {
   display: inline-block; 
   padding: 10px 15px; 
-  background-color: #a94064; 
-  color: #e7accf; 
+  background-color: #16222A; 
+  color: #87afc7; 
   border-radius: 4px;  
   font-weight: 800; 
   cursor: pointer;
@@ -71,7 +71,7 @@ a {
 #main-div {
   margin-top: 20px;
   text-align: center;
-  background-color: #c54b8c; 
+  background-image: linear-gradient(to right, #16222A, #3A6073);
   border-radius: 10px; 
   padding: 20px; 
 }
@@ -79,7 +79,7 @@ a {
 #main-div p {
   margin: 10px; 
   font-size: 16px; 
-  color: #e7accf; 
+  color: #87afc7; 
 }
 
 #main-div p:first-child {
